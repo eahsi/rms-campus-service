@@ -1,6 +1,8 @@
 spring:
   application:
     name: campus-service
+  profiles:
+    active: ${ACTIVE_SPRING_PROFILES:local}
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://${CONFIG_SERVICE_URL:localhost}:${CONFIG_SERVICE_PORT:8888}

@@ -1,0 +1,8 @@
+com.revature.rms.campus
+com.revature.rms.campus.DTO
+com.revature.rms.campus.controllers
+com.revature.rms.campus.entities
+com.revature.rms.campus.exceptions
+com.revature.rms.campus.repositories
+com.revature.rms.campus.services
+integration.controllers
